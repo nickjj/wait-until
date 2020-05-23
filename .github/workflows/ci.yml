@@ -1,0 +1,19 @@
+name: "CI"
+
+on: "push"
+
+jobs:
+  test:
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - uses: "actions/checkout@v2"
+
+      - name: "Install ShellCheck"
+        run: sudo apt-get install -y shellcheck
+
+      - name: "Lint script"
+        run: shellcheck wait-until
+
+      - name: "Ensure script runs"
+        run: ./wait-until /bin/true 5
