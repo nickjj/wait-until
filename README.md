@@ -147,11 +147,10 @@ In all examples, we're sourcing an `.env` file because typically that's where
 you would define your database environment variables that the official Docker
 images expect to be set.
 
-Needless to say if you go this route you shouldn't include sensitive
-information in this file since it's in version control. Typically I commit a
-safe `.env.example` file to version control and then `mv .env.example .env` as
-part of my CI pipeline. This file would have development credentials that work
-and are safe to commit as defaults.
+Your `.env` file is usually ignored from version control which is a good idea.
+What I do is commit a safe `.env.example` file to version control and then `mv
+.env.example .env` as part of my CI pipeline. This file would have development
+credentials that work and are safe to commit as defaults.
 
 But if you're connecting to a remote database with sensitive credentials, then
 you may want to skip that source step and read those environment variables
