@@ -59,6 +59,15 @@ time of a command is based on the hardware specs of the machine.
 If you put a long sleep like 30 seconds to be safe then you're waiting
 potentially tens of extra seconds on every CI run.
 
+### Can't you do `docker-compose up -d && make db-reset`?
+
+Technically yes, but you're going to be at the mercy of race conditions. That
+isn't going to ensure that your database is "really" ready before control is
+passed over to the 2nd command in the chain.
+
+I ran that 10 times manually and it failed 9 out of 10 times. That's not really
+suitable to have running in CI.
+
 ### What about the `wait-for-it` script?
 
 The [wait-for-it](https://github.com/vishnubob/wait-for-it) script is popular,
