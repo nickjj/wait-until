@@ -3,11 +3,20 @@
 A zero dependency Bash script that waits until a command of your choosing has
 run successfully.
 
+- [Demo Video](#demo-video)
 - [Use Cases](#use-cases)
 - [Installation](#installation)
 - [Usage Examples](#usage-examples)
 - [Configuration Options](#configuration-options)
 - [About the Author](#about-the-author)
+
+## Demo Video
+
+This video covers why you might want to use this script and how to use it. It's
+basically the documention in video form.
+
+[![Demo
+video](https://nickjanetakis.com/assets/blog/cards/wait-until-your-dockerized-database-is-ready-before-continuing-6181d654c8c7a45dfffe0384afacb58e71db84fe75bac9eceb53a90faa122159.jpg)](https://www.youtube.com/watch?v=jqqIQoSpxxA)
 
 ## Use Cases
 
