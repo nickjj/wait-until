@@ -122,7 +122,7 @@ into a local `bin/` directory that's on your path for your user.
 
 ```sh
 sudo curl \
-  -L https://raw.githubusercontent.com/nickjj/wait-until/v0.1.0/wait-until \
+  -L https://raw.githubusercontent.com/nickjj/wait-until/v0.1.1/wait-until \
   -o /usr/local/bin/wait-until && sudo chmod +x /usr/local/bin/wait-until
 ```
 
@@ -131,7 +131,7 @@ sudo curl \
 You would add these instructions somewhere near the bottom of your `Dockefile`.
 
 ```Dockerfile
-ADD https://raw.githubusercontent.com/nickjj/wait-until/v0.1.0/wait-until /usr/local/bin
+ADD https://raw.githubusercontent.com/nickjj/wait-until/v0.1.1/wait-until /usr/local/bin
 RUN chmod +x /usr/local/bin/wait-until
 ```
 
@@ -151,7 +151,7 @@ your system. Then you can put it anywhere you want.
 
 ```sh
 curl \
-  -L https://raw.githubusercontent.com/nickjj/wait-until/v0.1.0/wait-until \
+  -L https://raw.githubusercontent.com/nickjj/wait-until/v0.1.1/wait-until \
   -o wait-until && chmod +x wait-until
 ```
 
