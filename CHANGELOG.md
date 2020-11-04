@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.2
+
+*Released November 4th 2020*
+
+- Revert https://github.com/nickjj/wait-until/pull/5 and use the original script 
+
 ## v0.1.1
 
 *Released November 2nd 2020*
