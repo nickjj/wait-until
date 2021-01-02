@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.2.0
+
+*Released January 2nd 2020*
+
+- Make the timeout in seconds closer to real life seconds
+
 ## v0.1.2
 
 *Released November 4th 2020*
