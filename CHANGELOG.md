@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-*Released TBD*
+*Released September 27th 2023*
 
 - Update default timeout from 30 to 60 seconds
 
