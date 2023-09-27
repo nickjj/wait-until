@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 command="${1}"
-timeout="${2:-30}"
+timeout="${2:-60}"
 
 i=1
 until eval "${command}"

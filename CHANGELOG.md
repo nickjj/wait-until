@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+*Released TBD*
+
+- Update default timeout from 30 to 60 seconds
+
 ## v0.2.0
 
 *Released January 2nd 2020*

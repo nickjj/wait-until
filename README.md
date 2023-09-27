@@ -226,7 +226,7 @@ issue a pain in the butt.
 ## Configuration Options
 
 You can add an optional second argument to customize the timeout in seconds. By
-default it's set to 30 seconds.
+default it's set to 60 seconds.
 
 For example you can run `wait-until "grep" 3` to try it out. The `grep` command
 will fail to run since it requires at least 1 argument. As configured
