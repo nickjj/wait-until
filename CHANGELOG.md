@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v0.3.0
 
 *Released September 27th 2023*
 
@@ -16,7 +16,7 @@
 
 *Released November 4th 2020*
 
-- Revert https://github.com/nickjj/wait-until/pull/5 and use the original script 
+- Revert https://github.com/nickjj/wait-until/pull/5 and use the original script
 
 ## v0.1.1
 
