@@ -4,7 +4,7 @@ command="${1}"
 timeout="${2:-60}"
 
 if [[ "${command}" =~ ^(-v|--version|version)$ ]]; then
-  echo "0.3.0"
+  echo "0.3.1"
   exit
 fi
 

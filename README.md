@@ -1,4 +1,4 @@
-# wait-until ![CI](https://github.com/nickjj/wait-until/workflows/CI/badge.svg?branch=master)
+# wait-until
 
 A zero dependency Bash script that waits until a command of your choosing has
 run successfully.
@@ -13,7 +13,7 @@ run successfully.
 ## Demo Video
 
 This video covers why you might want to use this script and how to use it. It's
-basically the documention in video form.
+basically the documentation in video form.
 
 [![Demo
 video](https://nickjanetakis.com/assets/blog/cards/wait-until-your-dockerized-database-is-ready-before-continuing-6181d654c8c7a45dfffe0384afacb58e71db84fe75bac9eceb53a90faa122159.jpg)](https://www.youtube.com/watch?v=jqqIQoSpxxA)
@@ -122,7 +122,7 @@ into a local `bin/` directory that's on your path for your user.
 
 ```sh
 sudo curl \
-  -L https://raw.githubusercontent.com/nickjj/wait-until/v0.3.0/wait-until \
+  -L https://raw.githubusercontent.com/nickjj/wait-until/v0.3.1/wait-until \
   -o /usr/local/bin/wait-until && sudo chmod +x /usr/local/bin/wait-until
 ```
 
@@ -131,7 +131,7 @@ sudo curl \
 You would add these instructions somewhere near the bottom of your `Dockefile`.
 
 ```Dockerfile
-ADD https://raw.githubusercontent.com/nickjj/wait-until/v0.3.0/wait-until /usr/local/bin
+ADD https://raw.githubusercontent.com/nickjj/wait-until/v0.3.1/wait-until /usr/local/bin
 RUN chmod +x /usr/local/bin/wait-until
 ```
 
@@ -151,7 +151,7 @@ your system. Then you can put it anywhere you want.
 
 ```sh
 curl \
-  -L https://raw.githubusercontent.com/nickjj/wait-until/v0.3.0/wait-until \
+  -L https://raw.githubusercontent.com/nickjj/wait-until/v0.3.1/wait-until \
   -o wait-until && chmod +x wait-until
 ```
 
