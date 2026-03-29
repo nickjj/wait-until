@@ -3,15 +3,19 @@
 command="${1}"
 timeout="${2:-60}"
 
+if [[ "${command}" =~ ^(-v|--version|version)$ ]]; then
+  echo "0.3.0"
+  exit
+fi
+
 i=1
-until eval "${command}"
-do
-    ((i++))
+until eval "${command}"; do
+  ((i++))
 
-    if [ "${i}" -gt "${timeout}" ]; then
-        echo "command was never successful, aborting due to ${timeout}s timeout!"
-        exit 1
-    fi
+  if [ "${i}" -gt "${timeout}" ]; then
+    echo "command was never successful, aborting due to ${timeout}s timeout!"
+    exit 1
+  fi
 
-    sleep 1
+  sleep 1
 done
