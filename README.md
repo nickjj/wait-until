@@ -107,6 +107,9 @@ And that's why I decided to make this script.
 
 ## Installation
 
+*If you're using [my dotfiles](https://github.com/nickjj/dotfiles), it comes
+pre-installed by default!*
+
 Typically you would install this script into a base Docker image that you use
 as your CI environment, but we'll cover a few installation methods here.
 
